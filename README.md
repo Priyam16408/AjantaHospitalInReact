@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center" style="margin-bottom: 32px">
   <a href="https://erdkse.com" >
     <img src="https://raw.githubusercontent.com/erdkse/adminlte-3-react/main/public/img/logo.png" alt="AdminLTE logo" width="75" height="75">
@@ -46,3 +47,7 @@ Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 [![License](https://img.shields.io/github/license/erdkse/adminlte-3-react.svg)](/LICENSE)
 
 Released 2021 by [Erdi Köse](https://erdkse.com)
+=======
+# AjantaHospitalInReact
+A code repo for Ajanta Hospital in React
+>>>>>>> 5b4ca6e26193a090c1a87613b17cf3f03e8df083
