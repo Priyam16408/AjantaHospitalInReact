@@ -1,0 +1,178 @@
+
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */
+
+/* Background.css */
+.background-login-containers {
+  background-image: url("../../assets/image/upload.jpeg"); /* Use your image path */
+  background-size: 100% 100%; /* Ensures the image covers the entire area */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents tiling */
+  height: 100vh; /* Full viewport height */
+  width: 100%; /* Full width */
+  display: flex;
+  justify-content: left; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+.background-login-container {
+  background-image: url("../src/img/womend.jpg"); /* Use your image path */
+  background-size: 100% 100%; /* Ensures the image covers the entire area */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents tiling */
+  height: 100vh; /* Full viewport height */
+  width: 100%; /* Full width */
+  display: flex;
+  justify-content: left; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+.background-container {
+  background-image: url("../src/img/back.png"); /* Use your image path */
+  background-size: cover; /* Ensures the image covers the entire area */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents tiling */
+  height: 100vh; /* Full viewport height */
+  width: 100%; /* Full width */
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+.content {
+  color: white; /* Text color */
+  text-align: center;
+  padding: 40px;
+  background: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Adds a semi-transparent overlay for readability */
+  border-radius: 10px;
+  width: 500px;
+}
+.contents {
+  color: white; /* Text color */
+  text-align: center;
+  padding: 40px;
+  background: #494871;
+  /* background: #b1dbc7;  */
+  border-radius: 10px;
+  width: 500px;
+  margin-left: 15%;
+  border: 2px solid white;
+}
+.contentss {
+  color: white; /* Text color */
+  text-align: center;
+  padding: 30px;
+  background: #260d72; /* Adds a semi-transparent overlay for readability */
+  border-radius: 10px;
+  width: 400px;
+  border: 2px solid white;
+  margin-left: 10%;
+  /* box-shadow: 2px 2px 8px whitesmoke; */
+}
+
+.contentss p {
+  font-size: 17px !important;
+  /* margin-bottom: 20px; */
+}
+
+.Login-heading {
+  font-size: 30px !important;
+  /* font-weight: 500; */
+}
+.Login-z {
+  font-size: 17px !important;
+  color: black;
+}
+
+/* Ensure responsiveness on smaller devices */
+@media (max-width: 768px) {
+  .contentss {
+    padding: 15px;
+    margin: 10px !important;
+  }
+  .background-login-containers {
+    height: 70vh;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .content {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.input-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: flex-end;
+  border-bottom: 4px solid #ccc;
+  padding: 5px;
+}
+
+.icon {
+  color: #6c757d;
+  /* margin-right: 10px; */
+  font-size: 20px;
+}
+
+.input-field {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  /* padding: 10px 5px; */
+  background: transparent;
+  color: white;
+}
+
+.input-field::placeholder {
+  color: #fff;
+}
+
+.forget {
+  cursor: pointer;
+}
+
+/* For browsers that support the :autofill pseudo-class */
+.input-field:-webkit-autofill {
+    background-color: transparent !important;
+    -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+    box-shadow: 0 0 0px 1000px transparent inset;
+    transition: background-color 5000s ease-in-out 0s;
+    color: white !important; /* Set the font color to white */
+    -webkit-text-fill-color: white !important;
+  }
+  
+  /* Optional for other browsers */
+  .input-field:autofill {
+    background-color: transparent !important;
+    text-fill-color: white !important;
+  }
+  

@@ -1,0 +1,384 @@
+{
+  "login": {
+    "label": {
+      "signIn": "Inicia sesión para comenzar tu sesión",
+      "rememberMe": "Recuérdame",
+      "forgotPass": "Olvidé mi contraseña",
+      "registerNew": "Registra una nueva membresía"
+    },
+    "button": {
+      "signIn": {
+        "label": "Iniciar sesión",
+        "social": "Iniciar sesión usando {{what}}"
+      },
+      "signUp": {
+        "label": "Registrarse",
+        "social": "Registrarse usando {{what}}"
+      },
+      "signOut": "Cerrar sesión"
+    }
+  },
+  "register": {
+    "alreadyHave": "Ya tengo una membresía",
+    "registerNew": "Registrar una nueva membresía",
+    "label": "Registrarse"
+  },
+  "recover": {
+    "forgotYourPassword": "¿Olvidaste tu contraseña? Aquí puedes recuperar fácilmente una nueva contraseña.",
+    "oneStepAway": "Estás a solo un paso de tu nueva contraseña, recupera tu contraseña ahora.",
+    "changePassword": "Cambiar contraseña",
+    "requestNewPassword": "Solicitar nueva contraseña"
+  },
+  "main": {
+    "label": {
+      "moreInfo": "Más información",
+      "follow": "Seguir",
+      "aboutMe": "Acerca de mí",
+      "education": "Educación",
+      "location": "Ubicación",
+      "skills": "Habilidades",
+      "notes": "Notas",
+      "activity": "Actividad",
+      "timeline": "Cronología",
+      "settings": "Configuraciones"
+    }
+  },
+  "header": {
+    "label": {
+      "home": "Inicio",
+      "contact": "Contacto"
+    },
+    "language": {
+      "turkish": "Turco",
+      "english": "Inglés",
+      "german": "Alemán",
+      "french": "Francés",
+      "spanish": "Español"
+    },
+    "theme": {
+      "Blue": "Azul",
+      "Pink": "Rosa",
+      "Green": "Verde"
+    },
+    "messages": {
+      "ago": "Hace {{quantity}} {{unit}}",
+      "seeAll": "Ver todos los mensajes"
+    },
+    "notifications": {
+      "count": "{{quantity}} Notificaciones",
+      "newMessagesCount": "{{quantity}} nuevos mensajes",
+      "friendRequestsCount": "{{quantity}} solicitudes de amistad",
+      "reportsCount": "{{quantity}} nuevos informes",
+      "seeAll": "Ver todas las notificaciones"
+    },
+    "user": {
+      "profile": "Perfil",
+      "followers": "Seguidores",
+      "sales": "Ventas",
+      "friends": "Amigos"
+    }
+  },
+  "menusidebar": {
+    "label": {
+      "dashboard": "Tablero",
+      "profile": "Perfil",
+      "blank": "En blanco",
+      "mainMenu": "Menú principal",
+      "subMenu": "Submenú"
+    }
+  },
+  "footer": {
+    "version": "Versión",
+    "copyright": "Todos los derechos reservados."
+  },
+  "views": {
+    "user": {
+      "profile": "Perfil de usuario",
+      "following": "Siguiendo"
+    }
+  },
+  "measurement": {
+    "quantityUnit": "{{quantity}} {{unit}}"
+  },
+  "FrontOffice": {
+    "OPD": {
+      "Personal_Details": "Detalles personales",
+      "Billing_Details": "Detalles de facturación",
+      "search": "Buscar",
+      "patientRegistration": {
+        "Barcode": "Código de barras",
+        "Visit_ID": "ID de visita",
+        "UHID": "UHID",
+        "Mobile_No": "Número de móvil",
+        "First_Name": "Nombre",
+        "Last_Name": "Apellido",
+        "Title": "Título",
+        "Male": "Masculino",
+        "Female": "Femenino",
+        "Others": "Otros",
+        "DOB": "Fecha de nacimiento",
+        "Age": "Edad",
+        "Type": "Tipo",
+        "Gender": "Género",
+        "email": "Correo electrónico",
+        "Marital_Status": "Estado civil",
+        "ID_Proof_No": "Número de prueba de identidad",
+        "Local_Address": "Dirección local",
+        "Perma_Address": "Dirección permanente",
+        "Country": "País",
+        "State": "Estado",
+        "District": "Distrito",
+        "City": "Ciudad",
+        "Reference_ID": "ID de referencia",
+        "OldPatient": "Paciente antiguo",
+        "ducument": "{{quantity}} documento",
+        "Other": "Otro",
+        "Code": "Código",
+        "LandLine_No": "Número de línea fija",
+        "Birth_Place": "Lugar de nacimiento",
+        "Religion": "Religión",
+        "Relation_Of": "Relación de",
+        "Relation_Name": "Nombre de la relación",
+        "Relation": "Relación",
+        "Relation_Phone": "Teléfono de la relación",
+        "EMG_First_Name": "Nombre del primer contacto de emergencia",
+        "EMG_Last_Name": "Apellido del primer contacto de emergencia",
+        "EMG_Relation": "Relación del primer contacto de emergencia",
+        "EMG_Mobile_No": "Número de móvil del primer contacto de emergencia",
+        "EMG_Resident_No": "Número de residencia del primer contacto de emergencia",
+        "EMG_Address": "Dirección del primer contacto de emergencia",
+        "IsInternational": "Es internacional",
+        "Locality": "Localidad",
+        "Passport_Number": "Número de pasaporte",
+        "International_No": "Número internacional",
+        "Membership_No": "Número de membresía",
+        "Patient_Type": "Tipo de paciente",
+        "Emp_refID": "ID de referencia del empleado",
+        "Identity_Mark": "Marca de identidad",
+        "Identity_Mark2": "Segunda marca de identidad",
+        "Reference_Type": "Tipo de referencia",
+        "MLC_NO": "Número MLC",
+        "MLC": "MLC",
+        "Remarks": "Observaciones",
+        "IPD_No": "Número IPD",
+        "Contact_No": "Número de contacto",
+        "Address": "Dirección",
+        "fromDate": "Desde la fecha",
+        "toDate": "Hasta la fecha",
+        "test": "prueba"
+      },
+      "billingDetails": {
+        "billingDetailsName": "Detalles de facturación",
+        "label": {
+          "PanelGroup": "Grupo de panel",
+          "Corporate": "Corporativo",
+          "ReferalType": "Tipo de referencia",
+          "Department": "Departamento",
+          "Panel": "Panel",
+          "IgnorePolicy": "Ignorar política",
+          "ReferDoctor": "Médico referente",
+          "Doctor": "Médico",
+          "ParentPanel": "Panel principal",
+          "PROName": "Nombre de PRO",
+          "Policy_No": "Número de póliza",
+          "Policy_Card_No": "Número de tarjeta de póliza",
+          "Name_On_Card": "Nombre en la tarjeta",
+          "Expire_Date": "Fecha de vencimiento",
+          "Card_Holder": "Titular de la tarjeta",
+          "Approval_Amount": "Monto de aprobación",
+          "Approval_Remark": "Observación de aprobación",
+          "Panel_Required_Document": "Documentos requeridos del panel"
+        }
+      },
+      "testPayment": {
+        "label": {
+          "Type": "Tipo",
+          "Category": "Categoría",
+          "SubCategory": "Subcategoría",
+          "Dispatch_Mode": "Modo de envío",
+          "Search": "Buscar",
+          "CPOE": "CPOE",
+          "Count": "Conteo",
+          "LastTokenNumber": "Último número de token (Doc)",
+          "OnlineBooking": "Reservas en línea"
+        }
+      },
+      "PaymentGateway": {
+        "label": {
+          "Currency": "Moneda",
+          "Credit_Card": "Tarjeta de crédito",
+          "PaymentMode": "Modo de pago",
+          "Factor": "Factor",
+          "Cash": "Efectivo",
+          "Check": "Cheque",
+          "Credit": "Crédito",
+          "Online_Payment": "Pago en línea",
+          "Paytm": "Paytm",
+          "Co-Pay_Percent": "Porcentaje de copago",
+          "Co-Pay_Amount": "Cantidad de copago",
+          "Gross_Amount": "Monto bruto",
+          "Net_Amount": "Monto neto",
+          "Patient_Payable": "Monto pagadero por el paciente",
+          "Panel_Payable": "Monto pagadero por el panel",
+          "Discount_Amt": "Monto de descuento",
+          "Paid_Amount": "Monto pagado",
+          "Discount_in%": "Descuento en%",
+          "Round_Off": "Redondear",
+          "Currency_Round": "Redondeo de moneda",
+          "Balance_Amount": "Monto restante",
+          "Change": "Cambio",
+          "Return_Amt": "Monto de devolución",
+          "Remarks": "Observaciones"
+        }
+      },
+      "OPDRefund": {
+        "ReceiptNo": "Número de recibo",
+        "Patient_Details": "Detalles del paciente",
+        "Patient_Name": "Nombre del paciente",
+        "Age": "Edad",
+        "Amount": "Cantidad",
+        "Doctor": "Médico",
+        "IPD_No": "Número IPD",
+        "Prescribed_Items": "Artículos recetados"
+      },
+      "CardPrint": {
+        "Search_Criteria": "Criterio de búsqueda",
+        "From_Date": "Desde la fecha",
+        "To_Date": "Hasta la fecha"
+      },
+      "Confirmation": {
+        "label": {
+          "Confirmation": "Confirmación",
+          "FromDate": "Desde la fecha",
+          "ToDate": "Hasta la fecha",
+          "Status": "Estado",
+          "AppointmentNo": "Número de cita",
+          "PatientType": "Tipo de paciente",
+          "PatientName": "Nombre del paciente",
+          "Specialization": "Especialización",
+          "DoctorName": "Nombre del médico",
+          "Search": "Buscar",
+          "Report": "Informe"
+        }
+      },
+      "UploadDocument": {
+        "label": {
+          "Patient_Search": "Búsqueda de paciente",
+          "Appointment_Date_From": "Fecha de cita desde",
+          "Appointment_Date_To": "Fecha de cita hasta",
+          "Doctor_Name": "Nombre del médico",
+          "UHID": "UHID",
+          "Patient_Name": "Nombre del paciente"
+        }
+      }
+    },
+    "Re_Print": {
+      "label": {
+        "Bill": "Factura",
+        "ReceiptNo": "Número de recibo",
+        "BillNo": "Número de factura",
+        "UHID": "UHID",
+        "PatientName": "Nombre del paciente",
+        "FromDate": "Desde la fecha",
+        "ToDate": "Hasta la fecha",
+        "Search": "Buscar",
+        "Patient Name": "Nombre del paciente",
+        "Address": "Dirección",
+        "Receipt No": "Número de recibo",
+        "Bill No": "Número de factura",
+        "Date": "Fecha",
+        "Bill Amount": "Monto de la factura",
+        "Print": "Imprimir",
+        "Original": "Original",
+        "Receipt_Reprint": "Reimpresión de recibo"
+      }
+    },
+    "PatientRegistration": {
+      "label": {
+        "Patient Black List": "Lista negra de pacientes",
+        "UHID": "UHID",
+        "PatientName": "Nombre del paciente",
+        "IPDNo": "Número de IPD",
+        "ReceiptNo": "Número de recibo",
+        "BillNo": "Número de factura",
+        "ContactNo": "Número de contacto",
+        "Search": "Buscar",
+        "StartDate": "Fecha de inicio",
+        "Reason": "Motivo"
+      }
+    },
+    "Tools": {
+      "label": {
+        "Manage_Debit_Credit_Note": "Administrar nota de débito/crédito"
+      },
+      "ExpenseVoucher": {
+        "heading": "Agregar nuevos detalles de gastos",
+        "heading1": "Buscar detalles de gastos",
+        "ExpDetail": {
+          "paymentType": "Tipo de pago",
+          "EmployeeType": "Tipo de empleado",
+          "Name": "NOMBRE",
+          "Department": "Departamento",
+          "ExpenceType": "Tipo de gasto",
+          "ExpenceTo": "Gasto a",
+          "Amount": "Cantidad",
+          "ApprovedBy": "Aprobado por",
+          "Remarks": "Observaciones"
+        },
+        "table": {
+          "thead": {
+            "S.no": "N.º de serie",
+            "ReceiptNo": "Número de recibo",
+            "Received_Against_Receipt": "Recibido contra recibo",
+            "Date": "Fecha",
+            "Amount_Paid": "Cantidad pagada",
+            "Adjustment": "Ajuste",
+            "ExpenceType": "Tipo de gasto",
+            "Name": "NOMBRE",
+            "Remarks": "Observaciones",
+            "Receive": "Recibir"
+          }
+        },
+        "btnName": "Guardar"
+      }
+    }
+  },
+  "modalComponent": {
+    "Utils": {
+      "ReferedDoctorModal": {
+        "label": {
+          "Title": "Título",
+          "Address": "Dirección",
+          "ContactNo": "Número de contacto",
+          "Pro_Name": "Nombre de Pro",
+          "Name": "Nombre"
+        }
+      }
+    }
+  },
+  "Sidebar": {
+    "FrontOffice": {
+      "Registration": {
+        "Registration": "Registro",
+        "Register_Modify": "Registrar/Modificar",
+        "Patient_Black_List": "Lista negra de pacientes"
+      },
+      "OPD": {
+        "OPD": "OPD",
+        "OPD_servicebooking": "Reserva de servicios de OPD",
+        "Confirmation": "Confirmación",
+        "opd-setellment": "Liquidación de OPD",
+        "opd-refund": "Reembolso de OPD",
+        "opd-advance": "Avance de OPD",
+        "Upload_View_Document": "Subir ver documento"
+      },
+      "Reprint": {
+        "Reprint": "Reimpresión",
+        "Receipt-Re-Print": "Reimpresión de recibo"
+      }
+    }
+  },
+  "datePickerComponent": {
+    "DatePicker": "Fecha de nacimiento"
+  }
+}

@@ -1,0 +1,95 @@
+.notify-card {
+  position: fixed;
+  bottom: 24px;
+  left: 20px;
+  background: #fff;
+  color: #333;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 12px;
+  width: 280px;
+  max-width: 90%;
+  padding: 16px;
+  z-index: 1000;
+  animation: slide-in 0.4s ease forwards;
+  font-family: system-ui, sans-serif;
+  transition: all 1s ease;
+}
+
+.handle-close{
+   animation: slide-out  0.4s ease forwards;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-out {
+  from {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+}
+
+.notify-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.notify-close {
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  font-weight: 700;
+  height: 20px;
+  width: 28px;
+  cursor: pointer;
+  /* line-height: 1; */
+  color: #ffffff;
+  transition: color 0.3s ease;
+  padding-bottom: 5px;
+}
+
+.notify-close:hover {
+  color: #e74c3c;
+}
+
+.notify-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.notify-item {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.notify-item label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #555;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.notify-item span {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #222;
+  padding-left: 1rem;
+}

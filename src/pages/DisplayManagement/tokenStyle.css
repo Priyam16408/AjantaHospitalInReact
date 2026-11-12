@@ -1,0 +1,23 @@
+ 
+
+  .containerwrap {
+    background-color: #FFFFCC;
+    width: 100%;
+    height: 100vh;   
+  }
+
+  .table { 
+  width:"100%";
+    border-collapse: collapse;
+    background-color: #ffffcc;
+  }
+  .table th, .table td {
+    /* font-size: 25px !important; */
+    padding: 20px;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+  .table th {
+    background-color: #0b468a;
+    color: white;
+  } 

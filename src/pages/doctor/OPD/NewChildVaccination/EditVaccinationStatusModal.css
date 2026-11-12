@@ -1,0 +1,93 @@
+.age-wrapper {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 6px;
+  background: #fff;
+}
+
+.age-scroll {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  flex: 1;
+}
+
+.age-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.age-pill {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 14px;
+  font-size: 12px;
+  white-space: nowrap;
+  background-color: #f9f9f9;
+}
+
+.dotss {
+  width: 6px;
+  height: 6px;
+  background: #dc3545;
+  border-radius: 50%;
+}
+
+.arrow-btn {
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border-radius: 50%;
+  font-size: 18px;
+  /* line-height: 1; */
+}
+.vaccine-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 12px;
+  cursor: pointer;
+  background: #fff;
+  transition: all 0.2s ease;
+  min-height: 120px;
+}
+
+.vaccine-card:hover {
+  border-color: #6c63ff;
+}
+
+.vaccine-card.selected {
+  border-color: #6c63ff;
+  background: #f4f3ff;
+}
+
+.badge-box {
+  background: #fdecec;
+  color: #d9534f;
+  padding: 6px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  display: inline-block;
+}
+.badge-status {
+  background: #e8fdd4;
+  color: black;
+  padding: 6px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.age-pill.active {
+  border-color: #28a745;
+  background: #e9f7ef;
+}
+
+.age-pill.active .dotss {
+  background: #28a745; 
+}
+

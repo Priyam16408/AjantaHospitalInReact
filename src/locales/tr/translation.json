@@ -1,0 +1,384 @@
+{
+  "login": {
+    "label": {
+      "signIn": "Oturumunuzu başlatmak için giriş yapın",
+      "rememberMe": "Beni Hatırla",
+      "forgotPass": "Şifremi unuttum",
+      "registerNew": "Yeni bir üyelik kaydı oluştur"
+    },
+    "button": {
+      "signIn": {
+        "label": "Oturum Aç",
+        "social": "{{what}} kullanarak oturum açın"
+      },
+      "signUp": {
+        "label": "Kaydol",
+        "social": "{{what}} kullanarak kaydolun"
+      },
+      "signOut": "Çıkış Yap"
+    }
+  },
+  "register": {
+    "alreadyHave": "Zaten bir üyeliğim var",
+    "registerNew": "Yeni bir üyelik kaydı oluştur",
+    "label": "Kayıt Ol"
+  },
+  "recover": {
+    "forgotYourPassword": "Şifrenizi mi unuttunuz? Buradan kolayca yeni bir şifre alabilirsiniz.",
+    "oneStepAway": "Yeni şifrenize bir adım uzaktasınız, şimdi şifrenizi kurtarın.",
+    "changePassword": "Şifre Değiştir",
+    "requestNewPassword": "Yeni Şifre Talep Et"
+  },
+  "main": {
+    "label": {
+      "moreInfo": "Daha fazla bilgi",
+      "follow": "Takip Et",
+      "aboutMe": "Benim Hakkımda",
+      "education": "Eğitim",
+      "location": "Konum",
+      "skills": "Yetenekler",
+      "notes": "Notlar",
+      "activity": "Etkinlik",
+      "timeline": "Zaman Çizelgesi",
+      "settings": "Ayarlar"
+    }
+  },
+  "header": {
+    "label": {
+      "home": "Ana Sayfa",
+      "contact": "İletişim"
+    },
+    "language": {
+      "turkish": "Türkçe",
+      "english": "İngilizce",
+      "german": "Almanca",
+      "french": "Fransızca",
+      "spanish": "İspanyolca"
+    },
+    "theme": {
+      "Blue": "Mavi",
+      "Pink": "Pembe",
+      "Green": "Yeşil"
+    },
+    "messages": {
+      "ago": "{{quantity}} {{unit}} önce",
+      "seeAll": "Tüm Mesajları Gör"
+    },
+    "notifications": {
+      "count": "{{quantity}} Bildirim",
+      "newMessagesCount": "{{quantity}} yeni mesaj",
+      "friendRequestsCount": "{{quantity}} arkadaşlık isteği",
+      "reportsCount": "{{quantity}} yeni rapor",
+      "seeAll": "Tüm Bildirimleri Gör"
+    },
+    "user": {
+      "profile": "Profil",
+      "followers": "Takipçiler",
+      "sales": "Satışlar",
+      "friends": "Arkadaşlar"
+    }
+  },
+  "menusidebar": {
+    "label": {
+      "dashboard": "Kontrol Paneli",
+      "profile": "Profil",
+      "blank": "Boş",
+      "mainMenu": "Ana Menü",
+      "subMenu": "Alt Menü"
+    }
+  },
+  "footer": {
+    "version": "Sürüm",
+    "copyright": "Tüm hakları saklıdır."
+  },
+  "views": {
+    "user": {
+      "profile": "Kullanıcı Profili",
+      "following": "Takip Edilenler"
+    }
+  },
+  "measurement": {
+    "quantityUnit": "{{quantity}} {{unit}}"
+  },
+  "FrontOffice": {
+    "OPD": {
+      "Personal_Details": "Kişisel Bilgiler",
+      "Billing_Details": "Fatura Bilgileri",
+      "search": "Ara",
+      "patientRegistration": {
+        "Barcode": "Barkod",
+        "Visit_ID": "Ziyaret ID'si",
+        "UHID": "UHID",
+        "Mobile_No": "Mobil No",
+        "First_Name": "Adı",
+        "Last_Name": "Soyadı",
+        "Title": "Başlık",
+        "Male": "Erkek",
+        "Female": "Kadın",
+        "Others": "Diğerleri",
+        "DOB": "Doğum Tarihi",
+        "Age": "Yaş",
+        "Type": "Tür",
+        "Gender": "Cinsiyet",
+        "email": "E-posta Adresi",
+        "Marital_Status": "Medeni Durumu",
+        "ID_Proof_No": "Kimlik Kanıt No",
+        "Local_Address": "Yerel Adres",
+        "Perma_Address": "Kalıcı Adres",
+        "Country": "Ülke",
+        "State": "Eyalet",
+        "District": "İlçe",
+        "City": "Şehir",
+        "Reference_ID": "Referans ID'si",
+        "OldPatient": "Eski Hasta",
+        "ducument": "{{quantity}} belge",
+        "Other": "Diğer",
+        "Code": "Kod",
+        "LandLine_No": "Sabit Telefon No",
+        "Birth_Place": "Doğum Yeri",
+        "Religion": "Din",
+        "Relation_Of": "İlişkisi",
+        "Relation_Name": "İlişki Adı",
+        "Relation": "İlişki",
+        "Relation_Phone": "İlişki Telefonu",
+        "EMG_First_Name": "Acil Durum İlk Adı",
+        "EMG_Last_Name": "Acil Durum Soyadı",
+        "EMG_Relation": "Acil Durum İlişkisi",
+        "EMG_Mobile_No": "Acil Durum Mobil No",
+        "EMG_Resident_No": "Acil Durum Yerleşim No",
+        "EMG_Address": "Acil Durum Adresi",
+        "IsInternational": "Uluslararası mı",
+        "Locality": "Mahalle",
+        "Passport_Number": "Pasaport Numarası",
+        "International_No": "Uluslararası Numara",
+        "Membership_No": "Üyelik No",
+        "Patient_Type": "Hasta Türü",
+        "Emp_refID": "Çalışan Referans ID'si",
+        "Identity_Mark": "Kimlik İşareti",
+        "Identity_Mark2": "Kimlik İşareti 2",
+        "Reference_Type": "Referans Türü",
+        "MLC_NO": "MLC NO",
+        "MLC": "MLC",
+        "Remarks": "Notlar",
+        "IPD_No": "IPD No",
+        "Contact_No": "İletişim No",
+        "Address": "Adres",
+        "fromDate": "Başlangıç Tarihi",
+        "toDate": "Bitiş Tarihi",
+        "test": "test"
+      },
+      "billingDetails": {
+        "billingDetailsName": "Fatura Detayları",
+        "label": {
+          "PanelGroup": "Panel Grubu",
+          "Corporate": "Kurumsal",
+          "ReferalType": "Yönlendirme Türü",
+          "Department": "Departman",
+          "Panel": "Panel",
+          "IgnorePolicy": "Politikayı Yoksay",
+          "ReferDoctor": "Doktoru Yönlendir",
+          "Doctor": "Doktor",
+          "ParentPanel": "Ana Panel",
+          "PROName": "PRO Adı",
+          "Policy_No": "Polis No.",
+          "Policy_Card_No": "Polis Kartı No.",
+          "Name_On_Card": "Kart Üzerindeki Ad",
+          "Expire_Date": "Son Kullanma Tarihi",
+          "Card_Holder": "Kart Sahibi",
+          "Approval_Amount": "Onay Tutarı",
+          "Approval_Remark": "Onay Açıklaması",
+          "Panel_Required_Document": "Panel Gerekli Belgeleri"
+        }
+      },
+      "testPayment": {
+        "label": {
+          "Type": "Tür",
+          "Category": "Kategori",
+          "SubCategory": "Alt Kategori",
+          "Dispatch_Mode": "Gönderim Modu",
+          "Search": "Ara",
+          "CPOE": "CPOE",
+          "Count": "Sayım",
+          "LastTokenNumber": "Son Belge No.(Doc)",
+          "OnlineBooking": "Çevrimiçi Rezervasyonlar"
+        }
+      },
+      "PaymentGateway": {
+        "label": {
+          "Currency": "Para Birimi",
+          "Credit_Card": "Kredi Kartı",
+          "PaymentMode": "Ödeme Modu",
+          "Factor": "Faktör",
+          "Cash": "Nakit",
+          "Check": "Çek",
+          "Credit": "Kredi",
+          "Online_Payment": "Çevrimiçi Ödeme",
+          "Paytm": "Paytm",
+          "Co-Pay_Percent": "Katılım Oranı",
+          "Co-Pay_Amount": "Katılım Tutarı",
+          "Gross_Amount": "Brüt Tutar",
+          "Net_Amount": "Net Tutar",
+          "Patient_Payable": "Hasta Ödemesi",
+          "Panel_Payable": "Panel Ödemesi",
+          "Discount_Amt": "İndirim Tutarı",
+          "Paid_Amount": "Ödenen Tutar",
+          "Discount_in%": "İndirim oranı",
+          "Round_Off": "Yuvarlama",
+          "Currency_Round": "Para Birimi Yuvarlama",
+          "Balance_Amount": "Bakiye Tutarı",
+          "Change": "Değişiklik",
+          "Return_Amt": "İade Tutarı",
+          "Remarks": "Notlar"
+        }
+      },
+      "OPDRefund": {
+        "ReceiptNo": "Fiş No",
+        "Patient_Details": "Hasta Detayları",
+        "Patient_Name": "Hasta Adı",
+        "Age": "Yaş",
+        "Amount": "Tutar",
+        "Doctor": "Doktor",
+        "IPD_No": "IPD No.",
+        "Prescribed_Items": "Reçete Edilen Ürünler"
+      },
+      "CardPrint": {
+        "Search_Criteria": "Arama Kriterleri",
+        "From_Date": "Başlangıç Tarihi",
+        "To_Date": "Bitiş Tarihi"
+      },
+      "Confirmation": {
+        "label": {
+          "Confirmation": "Onay",
+          "FromDate": "Başlangıç Tarihi",
+          "ToDate": "Bitiş Tarihi",
+          "Status": "Durum",
+          "AppointmentNo": "Randevu No",
+          "PatientType": "Hasta Türü",
+          "PatientName": "Hasta Adı",
+          "Specialization": "Uzmanlık",
+          "DoctorName": "Doktor Adı",
+          "Search": "Ara",
+          "Report": "Rapor"
+        }
+      },
+      "UploadDocument": {
+        "label": {
+          "Patient_Search": "Hasta Ara",
+          "Appointment_Date_From": "Randevu Tarihi Başlangıç",
+          "Appointment_Date_To": "Randevu Tarihi Bitiş",
+          "Doctor_Name": "Doktor Adı",
+          "UHID": "UHID",
+          "Patient_Name": "Hasta Adı"
+        }
+      }
+    },
+    "Re_Print": {
+      "label": {
+        "Bill": "Fatura",
+        "ReceiptNo": "Fiş No",
+        "BillNo": "Fatura No",
+        "UHID": "UHID",
+        "PatientName": "Hasta Adı",
+        "FromDate": "Başlangıç Tarihi",
+        "ToDate": "Bitiş Tarihi",
+        "Search": "Ara",
+        "Patient Name": "Hasta Adı",
+        "Address": "Adres",
+        "Receipt No": "Fiş No",
+        "Bill No": "Fatura No",
+        "Date": "Tarih",
+        "Bill Amount": "Fatura Tutarı",
+        "Print": "Yazdır",
+        "Original": "Orijinal",
+        "Receipt_Reprint": "Fiş Tekrarı"
+      }
+    },
+    "PatientRegistration": {
+      "label": {
+        "Patient Black List": "Hasta Kara Listesi",
+        "UHID": "UHID",
+        "PatientName": "Hasta Adı",
+        "IPDNo": "IPD No",
+        "ReceiptNo": "Fiş No",
+        "BillNo": "Fatura No",
+        "ContactNo": "İletişim No",
+        "Search": "Ara",
+        "StartDate": "Başlangıç Tarihi",
+        "Reason": "Neden"
+      }
+    },
+    "Tools": {
+      "label": {
+        "Manage_Debit_Credit_Note": "Borç / Kredi Notunu Yönet"
+      },
+      "ExpenseVoucher": {
+        "heading": "Yeni Masraf Detayları Ekle",
+        "heading1": "Masraf Detaylarını Ara",
+        "ExpDetail": {
+          "paymentType": "Ödeme Türü",
+          "EmployeeType": "Çalışan Türü",
+          "Name": "İSİM",
+          "Department": "Departman",
+          "ExpenceType": "Masraf Türü",
+          "ExpenceTo": "Masraf Hedefi",
+          "Amount": "Tutar",
+          "ApprovedBy": "Onaylayan",
+          "Remarks": "Notlar"
+        },
+        "table": {
+          "thead": {
+            "S.no": "Sıra No",
+            "ReceiptNo": "Fiş No",
+            "Received_Against_Receipt": "Fişe Karşı Alındı",
+            "Date": "Tarih",
+            "Amount_Paid": "Ödenen Tutar",
+            "Adjustment": "Düzenleme",
+            "ExpenceType": "Masraf Türü",
+            "Name": "İSİM",
+            "Remarks": "Notlar",
+            "Receive": "Al"
+          }
+        },
+        "btnName": "Kaydet"
+      }
+    }
+  },
+  "modalComponent": {
+    "Utils": {
+      "ReferedDoctorModal": {
+        "label": {
+          "Title": "Başlık",
+          "Address": "Adres",
+          "ContactNo": "İletişim No",
+          "Pro_Name": "PRO Adı",
+          "Name": "İsim"
+        }
+      }
+    }
+  },
+  "Sidebar": {
+    "FrontOffice": {
+      "Registration": {
+        "Registration": "Kayıt",
+        "Register_Modify": "Kayıt/Değiştir",
+        "Patient_Black_List": "Hasta Kara Listesi"
+      },
+      "OPD": {
+        "OPD": "AYT",
+        "OPD_servicebooking": "AYT Hizmet Rezervasyonu",
+        "Confirmation": "Onay",
+        "opd-setellment": "AYT Hesapla",
+        "opd-refund": "AYT İade",
+        "opd-advance": "AYT Avans",
+        "Upload_View_Document": "Belge Yükle/Görüntüle"
+      },
+      "Reprint": {
+        "Reprint": "Yeniden Bas",
+        "Receipt-Re-Print": "Fiş Yeniden Bas"
+      }
+    }
+  },
+  "datePickerComponent": {
+    "DatePicker": "Doğum Tarihi"
+  }
+}

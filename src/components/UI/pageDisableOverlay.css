@@ -1,0 +1,9 @@
+.page-overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  background: rgba(145, 145, 145, 0.2); /* semi-transparent overlay */
+  z-index: 5; /* lower z-index to keep button on top */
+}

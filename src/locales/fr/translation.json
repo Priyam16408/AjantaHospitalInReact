@@ -1,0 +1,458 @@
+{
+  "login": {
+    "label": {
+      "signIn": "Connectez-vous pour commencer votre session",
+      "rememberMe": "Se souvenir de moi",
+      "forgotPass": "J'ai oublié mon mot de passe",
+      "registerNew": "Inscrivez-vous pour adhérer"
+    },
+    "button": {
+      "signIn": {
+        "label": "Se connecter",
+        "social": "Connectez-vous en utilisant {{what}}"
+      },
+      "signUp": {
+        "label": "S'inscrire",
+        "social": "Inscrivez-vous en utilisant {{what}}"
+      },
+      "signOut": "Déconnexion"
+    }
+  },
+  "register": {
+    "alreadyHave": "J'ai déjà une adhésion",
+    "registerNew": "Inscrivez-vous pour adhérer",
+    "label": "S'inscrire"
+  },
+  "recover": {
+    "forgotYourPassword": "Vous avez oublié votre mot de passe ? Vous pouvez facilement en récupérer un nouveau ici.",
+    "oneStepAway": "Vous êtes à un pas de votre nouveau mot de passe, récupérez-le maintenant.",
+    "changePassword": "Changer le mot de passe",
+    "requestNewPassword": "Demander un nouveau mot de passe"
+  },
+  "main": {
+    "label": {
+      "moreInfo": "Plus d'infos",
+      "follow": "Suivre",
+      "aboutMe": "À propos de moi",
+      "education": "Éducation",
+      "location": "Emplacement",
+      "skills": "Compétences",
+      "notes": "Notes",
+      "activity": "Activité",
+      "timeline": "Chronologie",
+      "settings": "Paramètres"
+    }
+  },
+  "header": {
+    "label": {
+      "home": "Accueil",
+      "contact": "Contact"
+    },
+    "language": {
+      "turkish": "Turc",
+      "english": "Anglais",
+      "german": "Allemand",
+      "french": "Français",
+      "spanish": "Espagnol"
+    },
+    "theme": {
+      "Blue": "Bleu",
+      "Pink": "Rose",
+      "Green": "Vert"
+    },
+    "messages": {
+      "ago": "{{quantity}} {{unit}} il y a",
+      "seeAll": "Voir tous les messages"
+    },
+    "notifications": {
+      "count": "{{quantity}} Notifications",
+      "newMessagesCount": "{{quantity}} nouveaux messages",
+      "friendRequestsCount": "{{quantity}} demandes d'amis",
+      "reportsCount": "{{quantity}} nouveaux rapports",
+      "seeAll": "Voir toutes les notifications"
+    },
+    "user": {
+      "profile": "Profil",
+      "followers": "Abonnés",
+      "sales": "Ventes",
+      "friends": "Amis"
+    }
+  },
+  "menusidebar": {
+    "label": {
+      "dashboard": "Tableau de bord",
+      "profile": "Profil",
+      "blank": "Vide",
+      "mainMenu": "Menu Principal",
+      "subMenu": "Sous-menu"
+    }
+  },
+  "footer": {
+    "version": "Version",
+    "copyright": "Tous droits réservés."
+  },
+  "views": {
+    "user": {
+      "profile": "Profil de l'utilisateur",
+      "following": "Suivi"
+    }
+  },
+  "measurement": {
+    "quantityUnit": "{{quantity}} {{unit}}"
+  },
+  "FrontOffice": {
+    "OPD": {
+      "Personal_Details": "Détails personnels",
+      "Billing_Details": "Détails de facturation",
+      "search": "Recherche",
+      "patientRegistration": {
+        "Barcode": "Code-barres",
+        "Visit_ID": "Identifiant de visite",
+        "UHID": "UHID",
+        "Mobile_No": "Numéro de portable",
+        "First_Name": "Prénom",
+        "Last_Name": "Nom de famille",
+        "Title": "Titre",
+        "Male": "Homme",
+        "Female": "Femme",
+        "Others": "Autres",
+        "DOB": "Date de naissance",
+        "Age": "Âge",
+        "Type": "Type",
+        "Gender": "Genre",
+        "email": "Adresse e-mail",
+        "Marital_Status": "État civil",
+        "ID_Proof_No": "Numéro de preuve d'identité",
+        "Local_Address": "Adresse locale",
+        "Perma_Address": "Adresse permanente",
+        "Country": "Pays",
+        "State": "État",
+        "District": "District",
+        "City": "Ville",
+        "Reference_ID": "Identifiant de référence",
+        "OldPatient": "Ancien patient",
+        "ducument": "{{quantity}} document",
+        "Other": "Autre",
+        "Code": "Code",
+        "LandLine_No": "Numéro de ligne fixe",
+        "Birth_Place": "Lieu de naissance",
+        "Religion": "Religion",
+        "Relation_Of": "Relation de",
+        "Relation_Name": "Nom de la relation",
+        "Relation": "Relation",
+        "Relation_Phone": "Téléphone de la relation",
+        "EMG_First_Name": "Prénom d'urgence",
+        "EMG_Last_Name": "Nom de famille d'urgence",
+        "EMG_Relation": "Relation d'urgence",
+        "EMG_Mobile_No": "Numéro de portable d'urgence",
+        "EMG_Resident_No": "Numéro de résident d'urgence",
+        "EMG_Address": "Adresse d'urgence",
+        "IsInternational": "Est international",
+        "Locality": "Localité",
+        "Passport_Number": "Numéro de passeport",
+        "International_No": "Numéro international",
+        "Membership_No": "Numéro d'adhésion",
+        "Patient_Type": "Type de patient",
+        "Emp_refID": "Identifiant de référence de l'employé",
+        "Identity_Mark": "Marque d'identité",
+        "Identity_Mark2": "Marque d'identité 2",
+        "Reference_Type": "Type de référence",
+        "MLC_NO": "Numéro MLC",
+        "MLC": "MLC",
+        "Remarks": "Remarques",
+        "IPD_No": "Numéro IPD",
+        "Contact_No": "Numéro de contact",
+        "Address": "Adresse",
+        "fromDate": "De la date",
+        "toDate": "À la date",
+        "test": "test"
+      },
+      "billingDetails": {
+        "billingDetailsName": "Détails de facturation",
+        "label": {
+          "PanelGroup": "Groupe de panneaux",
+          "Corporate": "Corporatif",
+          "ReferalType": "Type de référence",
+          "Department": "Département",
+          "Panel": "Panneau",
+          "IgnorePolicy": "Ignorer la politique",
+          "ReferDoctor": "Médecin référent",
+          "Doctor": "Médecin",
+          "ParentPanel": "Panneau parent",
+          "PROName": "Nom du PRO",
+          "Policy_No": "Numéro de police",
+          "Policy_Card_No": "Numéro de carte d'assurance",
+          "Name_On_Card": "Nom sur la carte",
+          "Expire_Date": "Date d'expiration",
+          "Card_Holder": "Titulaire de la carte",
+          "Approval_Amount": "Montant d'approbation",
+          "Approval_Remark": "Remarque d'approbation",
+          "Panel_Required_Document": "Documents requis pour le panneau"
+        }
+      },
+      "testPayment": {
+        "label": {
+          "Type": "Type",
+          "Category": "Catégorie",
+          "SubCategory": "Sous-catégorie",
+          "Dispatch_Mode": "Mode d'envoi",
+          "Search": "Recherche",
+          "CPOE": "CPOE",
+          "Count": "Compter",
+          "LastTokenNumber": "Dernier numéro de jeton (doc)",
+          "OnlineBooking": "Réservations en ligne"
+        }
+      },
+      "PaymentGateway": {
+        "label": {
+          "Currency": "Devise",
+          "Credit_Card": "Carte de crédit",
+          "PaymentMode": "Mode de paiement",
+          "Factor": "Facteur",
+          "Cash": "Espèces",
+          "Check": "Vérifier",
+          "Credit": "Crédit",
+          "Online_Payment": "Paiement en ligne",
+          "Paytm": "Paytm",
+          "Co-Pay_Percent": "Pourcentage de co-paiement",
+          "Co-Pay_Amount": "Montant de co-paiement",
+          "Gross_Amount": "Montant brut",
+          "Net_Amount": "Montant net",
+          "Patient_Payable": "Montant payé par le patient",
+          "Panel_Payable": "Montant payé par le panneau",
+          "Discount_Amt": "Montant de réduction",
+          "Paid_Amount": "Montant payé",
+          "Discount_in%": "Réduction en %",
+          "Round_Off": "Arrondir",
+          "Currency_Round": "Arrondi de la devise",
+          "Balance_Amount": "Montant restant",
+          "Change": "Changer",
+          "Return_Amt": "Montant de retour",
+          "Remarks": "Remarques"
+        }
+      },
+      "OPDRefund": {
+        "ReceiptNo": "Numéro de reçu",
+        "Patient_Details": "Détails du patient",
+        "Patient_Name": "Nom du patient",
+        "Age": "Âge",
+        "Amount": "Montant",
+        "Doctor": "Médecin",
+        "IPD_No": "Numéro IPD",
+        "Prescribed_Items": "Articles prescrits"
+      },
+      "CardPrint": {
+        "Search_Criteria": "Critères de recherche",
+        "From_Date": "De la date",
+        "To_Date": "À la date"
+      },
+      "Confirmation": {
+        "label": {
+          "Confirmation": "Confirmation",
+          "FromDate": "De la date",
+          "ToDate": "À la date",
+          "Status": "Statut",
+          "AppointmentNo": "Numéro de rendez-vous",
+          "PatientType": "Type de patient",
+          "PatientName": "Nom du patient",
+          "Specialization": "Spécialisation",
+          "DoctorName": "Nom du médecin",
+          "Search": "Recherche",
+          "Report": "Rapport"
+        }
+      },
+      "UploadDocument": {
+        "label": {
+          "Patient_Search": "Recherche de patient",
+          "Appointment_Date_From": "Date du rendez-vous de",
+          "Appointment_Date_To": "Date du rendez-vous à",
+          "Doctor_Name": "Nom du médecin",
+          "UHID": "UHID",
+          "Patient_Name": "Nom du patient"
+        }
+      }
+    },
+    "Re_Print": {
+      "label": {
+        "Bill": "Facture",
+        "ReceiptNo": "Numéro de reçu",
+        "BillNo": "Numéro de facture",
+        "UHID": "UHID",
+        "PatientName": "Nom du patient",
+        "FromDate": "De la date",
+        "ToDate": "À la date",
+        "Search": "Recherche",
+        "Patient Name": "Nom du patient",
+        "Address": "Adresse",
+        "Receipt No": "Numéro de reçu",
+        "Bill No": "Numéro de facture",
+        "Date": "Date",
+        "Bill Amount": "Montant de la facture",
+        "Print": "Imprimer",
+        "Original": "Original",
+        "Receipt_Reprint": "Réimpression de reçu"
+      }
+    },
+    "PatientRegistration": {
+      "label": {
+        "Patient Black List": "Liste noire des patients",
+        "UHID": "UHID",
+        "PatientName": "Nom du patient",
+        "IPDNo": "Numéro IPD",
+        "ReceiptNo": "Numéro de reçu",
+        "BillNo": "Numéro de facture",
+        "ContactNo": "Numéro de contact",
+        "Search": "Recherche",
+        "StartDate": "Date de début",
+        "Reason": "Raison"
+      }
+    },
+    "Tools": {
+      "label": {
+        "Manage_Debit_Credit_Note": "Gérer les Notes de Débit/Crédit",
+        "UHID": "UHID",
+        "IPD_NO": "N° IPD",
+        "Patient_Name": "Nom du Patient",
+        "Bill_No": "N° de Facture",
+        "Search": "Rechercher",
+        "Personal_Details": "Détails Personnels",
+        "DepartmentWise_Bill_Details": "Détails des Factures par Département",
+        "Item_Details": "Détails des Articles",
+        "Type": "Type",
+        "Corrent_Doctor": "Médecin Courant",
+        "Self": "Soi-même",
+        "Credit_Amount": "Montant du Crédit",
+        "Panel": "Panel",
+        "Narration": "Narration",
+        "Doctor_Collection": "Collecte par le Médecin",
+        "Collected_Amount": "Montant Collecté",
+        "Cash_Collected_By": "Espèces Collectées par"
+      },
+      "DebitCreditNote": {
+        "table": {
+          "SrNo": "N° Sr",
+          "PatientName": "Nom du Patient",
+          "IPDNo": "N° IPD",
+          "Panel": "Panel",
+          "Address": "Adresse",
+          "#": "#",
+          "Department": "Département",
+          "Quantity": "Quantité",
+          "Amount": "Montant"
+        }
+      },
+      "ExpenseVoucher": {
+        "heading": "Ajouter de nouveaux détails de dépenses",
+        "heading1": "Rechercher des détails de dépenses",
+        "ExpDetail": {
+          "paymentType": "Type de paiement",
+          "EmployeeType": "Type d'employé",
+          "Name": "NOM",
+          "Department": "Département",
+          "ExpenceType": "Type de dépense",
+          "ExpenceTo": "Dépense à",
+          "Amount": "Montant",
+          "ApprovedBy": "Approuvé par",
+          "Remarks": "Remarques"
+        },
+        "table": {
+          "thead": {
+            "S.no": "N°",
+            "ReceiptNo": "Numéro de reçu",
+            "Received_Against_Receipt": "Reçu contre reçu",
+            "Date": "Date",
+            "Amount_Paid": "Montant payé",
+            "Adjustment": "Ajustement",
+            "ExpenceType": "Type de dépense",
+            "Name": "NOM",
+            "Remarks": "Remarques",
+            "Receive": "Recevoir"
+          }
+        },
+        "btnName": "Sauvegarder"
+      }
+    }
+  },
+
+  "helpDesk": {
+    "PackageDetailOPD": {
+      "Package_Name": "Nom du package",
+      "rate": "Taux"
+    },
+    "CostEstimateBilling": {
+      "Barcode": "Code-barres",
+      "UHID": "UHID",
+      "Search": "Rechercher",
+      "Old_Patient_Search": "Recherche de l'ancien patient",
+      "Patient_Details": "Détails du patient",
+      "Patient_Name": "Nom du patient",
+      "Age-Sex": "Âge / Sexe",
+      "Contact_No": "Numéro de contact",
+      "Address": "Adresse",
+      "Searching_Criteria_for_Estimation_Billing": "Critères de recherche pour l'estimation de la facturation",
+      "Panel": "Panneau",
+      "Doctor": "Docteur",
+      "Room_Type": "Type de chambre",
+      "Package": "Forfait",
+      "Surgery": "Chirurgie",
+      "S_No": "S/No.",
+      "RoomType": "Type de chambre",
+      "Doctor_Name": "Nom du médecin"
+    },
+    "PanelDetail": {
+      "HeadingName": "Maître de panneau",
+      "ConpanyName": "Nom de la compagnie",
+      "GroupType": "Type de groupe",
+      "btnName": "Enregistrer",
+      "TableData": {
+        "SNO": "N°",
+        "CompanyName": "Nom de la compagnie",
+        "Address": "Adresse",
+        "RefRate(IPD)Company": "Taux de référence (IPD) de la compagnie",
+        "RefRate(OPD)Company": "Taux de référence (OPD) de la compagnie",
+        "ContactPerson": "Personne à contacter",
+        "DateFrom": "Date De",
+        "DateTo": "Date À",
+        "CreditLimit": "Limite de crédit"
+      }
+    }
+  },
+  "modalComponent": {
+    "Utils": {
+      "ReferedDoctorModal": {
+        "label": {
+          "Title": "Titre",
+          "Address": "Adresse",
+          "ContactNo": "Numéro de contact",
+          "Pro_Name": "Nom du Pro",
+          "Name": "Nom"
+        }
+      }
+    }
+  },
+  "Sidebar": {
+    "FrontOffice": {
+      "Registration": {
+        "Registration": "Inscription",
+        "Register_Modify": "Inscription/Modification",
+        "Patient_Black_List": "Liste noire des patients"
+      },
+      "OPD": {
+        "OPD": "Consultation externe",
+        "OPD_servicebooking": "Réservation de services en consultation externe",
+        "Confirmation": "Confirmation",
+        "opd-setellment": "Règlement de la consultation externe",
+        "opd-refund": "Remboursement de la consultation externe",
+        "opd-advance": "Avance de consultation externe",
+        "Upload_View_Document": "Téléchargement et consultation de documents"
+      },
+      "Reprint": {
+        "Reprint": "Réimpression",
+        "Receipt-Re-Print": "Réimpression de reçu"
+      }
+    }
+  },
+  "datePickerComponent": {
+    "DatePicker": "Date de naissance"
+  }
+}

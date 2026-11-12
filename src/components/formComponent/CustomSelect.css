@@ -1,0 +1,68 @@
+/* src/CustomSelect.css */
+.custom-select-container {
+  position: relative;
+  min-width: 100%;
+  max-width: fit-content;
+}
+
+.custom-select-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: white;
+  font-size: 12px !important;
+}
+
+.custom-select-header .arrow {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  margin: 0px 5px;
+  transform: rotate(45deg);
+}
+
+.custom-select-header .arrow.open {
+  transform: rotate(-135deg);
+}
+
+.custom-select-dropdown {
+  position: absolute;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  z-index: 1000;
+ 
+}
+
+.custom-select-option {
+  padding: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.custom-select-search-wrapper {
+  padding: 3px;
+}
+
+.custom-select-search {
+  width: 100%;
+}
+
+.custom-option-select {
+  margin-top: 5px;
+  max-height: 200px;
+  overflow: scroll;
+}
+
+.custom-select-option:hover {
+  background-color: #c7c7c7;
+}
+.custom-select-option.highlighted {
+  background-color: #3181e9;
+}

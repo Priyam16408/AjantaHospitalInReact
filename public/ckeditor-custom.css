@@ -1,0 +1,17 @@
+table {
+  table-layout: fixed !important;
+}
+
+table td,
+table th {
+  min-width: 120px !important;
+  word-break: break-word !important;
+}
+.editor-content {
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+table {
+  width: 800px !important;
+}

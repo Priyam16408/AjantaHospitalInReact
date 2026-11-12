@@ -1,0 +1,13 @@
+.avatar {
+    width: 30px; /* Set the width of the avatar */
+    height: 30px; /* Set the height of the avatar */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+    border: 2px solid #ccc; /* Optional border color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+    transition: transform 0.3s ease; /* Smooth transform transition for hover effect */
+  }
+  
+  .avatar:hover {
+    transform: scale(1.1); /* Slightly scale up on hover */
+  }

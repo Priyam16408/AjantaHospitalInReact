@@ -1,0 +1,96 @@
+/* Carousel Container */
+.carousel-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* Carousel Slides Wrapper */
+.carousel-slides {
+  display: flex;
+  transition: transform 0.8s ease-in-out;
+  width: 100%;
+}
+
+/* Individual Slide */
+.carousel-slide {
+  min-width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  position: relative;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Navigation Buttons */
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .carousel-slide img {
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .carousel-btn {
+    padding: 5px;
+  }
+}
+
+.login-container {
+  position: absolute; /* Position it absolutely within the outer container */
+  top: 50%; /* Center it vertically */
+  left: 70%; /* Center it horizontally */
+  transform: translate(-50%, -50%); /* Offset by half its size */
+  z-index: 1; /* Ensure it appears above the slides */
+}
+
+/* .boxCard {
+  border-radius: 0px 50px 0px 50px !important;
+  padding: 40px;
+} */
+
+.boxCard {
+  border-radius: 50px 0px 50px 0px !important;
+  padding: 40px;
+  opacity: 0; /* Start fully transparent */
+  transform: scale(0.9); /* Start slightly smaller */
+  animation: fadeInScale 0.5s forwards; /* Use animation */
+}
+
+/* Keyframes for the animation */
+@keyframes fadeInScale {
+  to {
+    opacity: 1; /* End fully visible */
+    transform: scale(1); /* End at original size */
+  }
+}
+
+.boxCard:hover {
+  transform: scale(1.05); /* Scale up slightly on hover */
+  transition: transform 0.3s; /* Smooth transition */
+}
