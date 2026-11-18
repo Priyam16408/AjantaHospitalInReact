@@ -3281,8 +3281,8 @@ td > span > .p-autocomplete-input {
   flex-wrap: wrap;
   display: flex !important;
   align-items: center;
-  gap: 0px;
-  justify-content: right !important;
+  gap: 4.5px;
+  justify-content: start !important;
 }
 
 /* .btn {
@@ -5552,7 +5552,7 @@ input[type="checkbox"] {
   position: sticky;
   top: 0;
   background: #fff;
-  z-index: 999;
+  z-index: 998;
 }
 
 

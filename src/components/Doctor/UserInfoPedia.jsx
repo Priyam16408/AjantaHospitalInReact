@@ -447,7 +447,7 @@ const UserInfoPedia = (props) => {
               </div> */}
 
               <div className="row p-1 ">
-                <div className="col-lg-5 col-sm-12 main_container">
+                <div className="col-lg-4 col-sm-12 main_container">
                   <div className="h-100">
                     {/* <ul className="dddUL">
                       <h4>Current Vitals:</h4>
@@ -660,7 +660,7 @@ const UserInfoPedia = (props) => {
                   </div>
                 </div>
 
-                <div className="col-lg-7 col-md-12">
+                <div className="col-lg-8 col-md-12">
                   <div className="button_group">
                     {/* Navigation Buttons */}
                     <span

@@ -3,7 +3,7 @@ import React from "react";
 import "./Login.css";
 import { Button } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
-// import logo from "@app/assets/image/logo.png";
+import logo from "@app/assets/image/logo.png";
 import LogoNeo from "@app/assets/image/LogoNeo.png";
 import { useDispatch } from "react-redux";
 import { useFormik } from "formik";
@@ -79,13 +79,13 @@ const Login = () => {
         style={{ textAlign: "center", justifyContent: "center" }}
       >
         <Link to="/">
-          <img
+          {/* <img
             className="logoStyle"
             src={LogoNeo}
             alt="Logo"
             style={{ width: "150px" }}
-          />
-          {/* <img className="logoStyle" src={logo} alt="Logo" /> */}
+          /> */}
+          <img className="logoStyle" src={logo} alt="Logo" />
         </Link>
         <h1 className="Login-heading">Login</h1>
         <p>Sign In to start your session</p>

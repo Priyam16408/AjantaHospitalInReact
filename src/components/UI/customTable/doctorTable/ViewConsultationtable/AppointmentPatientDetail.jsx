@@ -3502,15 +3502,15 @@ const AppointmentPatientDetail = ({
     // Now you can make the API call with the updated payload
     // debugger
     try {
-      if (
-        type === "save" &&
-        loadSaveData?.transactionID !==
-        patientDetail?.currentPatient?.TransactionID
-      ) {
-        // debugger
-        notify("You can't copy old data to current appointment data", "error");
-        return false;
-      }
+      // if (
+      //   type === "save" &&
+      //   loadSaveData?.transactionID !==
+      //   patientDetail?.currentPatient?.TransactionID
+      // ) {
+      //   // debugger
+      //   notify("You can't copy old data to current appointment data", "error");
+      //   return false;
+      // }
 
       const apiResponse = await SavePrescriptionForm(newPayload);
 
