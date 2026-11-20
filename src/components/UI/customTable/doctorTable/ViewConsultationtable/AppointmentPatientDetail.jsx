@@ -352,7 +352,7 @@ const AppointmentPatientDetail = ({
     "Doctor Notes": "",
     "Systematic Examination": "",
   });
-
+console.log("inputValueinputValue",inputValue)
   const doctorSuggestionCategories = [
     "Allergies",
     "PA Examination",
@@ -1383,9 +1383,8 @@ const AppointmentPatientDetail = ({
 
   const itemTemplate = (item) => {
     return (
-      <div className="p-clearfix">
-        {/* <div style={{ float: "left", fontSize: "12px", width: "100%" }}> */}
-        <div style={{ fontSize: "12px", width: "100%" }}>
+      <div className="p-clearfix consultation-template-item">
+        <div className="consultation-template-item__text">
           {item?.TemplateName || item?.TypeName}
         </div>
       </div>
@@ -5361,7 +5360,7 @@ const AppointmentPatientDetail = ({
               if (!isDesktop && [1, 24, 25, 44].includes(item.ID)) {
                 if (item.ID === 1) {
                   return (
-                    <div className="px-2" key={`item-1-${index}`}>
+                    <div className="" key={`item-1-${index}`}>
                       <div className="">
                         <div className="App py-1 mx-1">
                           <div
@@ -5860,7 +5859,7 @@ const AppointmentPatientDetail = ({
                 <div>
                   <div className="row">
                     <div className="col-md-12 border-right">
-                      <div className="p-3 ">
+                      <div className="p-1">
                         <div className="d-none">
                           <strong>Vital Signs :</strong>
 

@@ -2581,6 +2581,14 @@ td {
   white-space: normal;
 }
 
+.p-clearfix.consultation-template-item > .consultation-template-item__text {
+  height: auto !important;
+  min-height: 10px;
+  font-size: 13px !important;
+  line-height: 1;
+  overflow-wrap: anywhere;
+}
+
 .tag-input-container .p-autocomplete input {
   height: 30px !important;
 }
