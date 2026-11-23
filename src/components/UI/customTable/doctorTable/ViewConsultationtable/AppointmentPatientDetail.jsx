@@ -92,6 +92,8 @@ import { Next } from "react-bootstrap/esm/PageItem";
 import SingleNameCreateTemplateModal from "./SingleNameCreateTemplateModal";
 import SuggestionTextarea from "../../../../formComponent/SuggestionTextarea";
 import ChipAutocomplete from "../../../../commonComponents/ChipAutocomplete";
+import MedicalAssistant from "../../../../../layouts/Chatbot/AiSummary";
+import "./AISummaryPanel.css";
 
 // import CancelButton from "../UI/CancelButton";
 
@@ -201,6 +203,7 @@ const AppointmentPatientDetail = ({
   const reloadDoctor = useSelector((state) => state.reloadDoctor.loading);
   const selectedFromSuggestion = useRef({});
   const [runReport, setRunReport] = useState(false);
+  const [showAiAssistant, setShowAiAssistant] = useState(false);
   const [prisciptionForm, setPrisciptionForm] = useState({
     Allergies: "",
     NextVisit: "",
@@ -258,6 +261,8 @@ const AppointmentPatientDetail = ({
     doctorRemarks: "",
     doctorAdditionalAdvice: "",
   });
+
+  const [showAISummary, setShowAISummary] = useState(false);
 
   const { getBindVitalData } = useSelector((state) => state.vitalSignSlice);
 
@@ -2221,7 +2226,7 @@ console.log("inputValueinputValue",inputValue)
                 name="nextVisitDate"
                 lable={"Visit Date"}
                 placeholder={VITE_DATE_FORMAT}
-                respclass="col-xl-3 col-md-4 col-sm-4"
+                respclass="col-xl-5 col-md-4 col-sm-4"
                 value={
                   prisciptionForm?.nextVisitDate
                     ? moment(
@@ -2264,7 +2269,7 @@ console.log("inputValueinputValue",inputValue)
                   handlechangebyPrisciption(event);
                 }}
                 lable={t("Days/Month/Years")}
-                respclass="col-xl-2 col-md-4 col-sm-4"
+                respclass="col-xl-3 col-md-4 col-sm-4"
               // disabled={isDisableInputs}
               />
 
@@ -2281,7 +2286,7 @@ console.log("inputValueinputValue",inputValue)
                   { label: "Years", value: "Years" },
                 ]}
                 searchable={true}
-                respclass="col-xl-2 col-md-4 col-sm-4"
+                respclass="col-xl-3 col-md-4 col-sm-4"
               // isDisabled={isDisableInputs}
               />
 
@@ -5207,10 +5212,47 @@ console.log("inputValueinputValue",inputValue)
           isListening={isListening}
           runReport={runReport}
           setRunReport={setRunReport}
+          setShowAISummary={setShowAISummary}
+          showAISummary={showAISummary}
         />
       </div>
       {/* <ScrollComponent viewPort={"0.6"}> */}
       <div className="card restcontent">
+
+                {/* AI Sidebar */}
+        {showAISummary && isDesktop && (
+          <div className="ai-sidebar-container fade-in-slide">
+            <div className="py-2">
+              <Heading
+                title={
+                  <span>
+                    <FaBrain /> {t("AI Assistance")}
+                  </span>
+                }
+                isBreadcrumb={false}
+                secondTitle={
+                  <span
+                    className=" p-2"
+                    onClick={() => setShowAISummary(false)}
+                  >
+                    <FaRegTimesCircle />
+                  </span>
+                }
+              />
+            </div>
+
+            <div className="ai-sidebar-body">
+              <MedicalAssistant
+                patientDetails={patientDetail.currentPatient}
+                notepadTextForAI={notepadTextForAI}
+              />
+            </div>
+          </div>
+        )}
+
+        <div
+          className={`consultation-main-content ${showAISummary && isDesktop ? "shrunk" : "full"}`}
+        >
         <div className="row">
           {/* Right Column: Other boxes */}
           {/* assa */}
@@ -7072,6 +7114,7 @@ console.log("inputValueinputValue",inputValue)
           )}
           {/* Left Column: Boxes with ID 20, 15, and 10 */}
         </div>
+      </div>
       </div>
 
       <SlideScreen

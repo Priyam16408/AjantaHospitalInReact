@@ -796,6 +796,25 @@ const UserInfoPedia = (props) => {
                       </span>
                     </button>
 
+                    <button
+              type="button"
+              className="btn btn-sm text-white font-weight-bold d-flex align-items-center"
+              onClick={() => setShowAiAssistant(true)}
+              style={{
+                background: "linear-gradient(135deg, #2563eb 0%, #7c3aed 100%)",
+                border: "none",
+                borderRadius: "18px",
+                padding: "4px 12px",
+                fontSize: "12px",
+                boxShadow: "0 2px 8px rgba(37, 99, 235, 0.35)",
+                cursor: "pointer",
+                whiteSpace: "nowrap"
+              }}
+            >
+              <i className=" bi-robot mr-1" style={{ fontSize: "14px" }}></i>
+              AI Assistance
+            </button>
+
                     {/* Call Button */}
                     {!(
                       patientDetail.currentPatient?.Isdone === "true" ||
