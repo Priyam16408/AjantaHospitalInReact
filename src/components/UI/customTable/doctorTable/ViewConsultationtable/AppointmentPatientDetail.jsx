@@ -2221,7 +2221,7 @@ console.log("inputValueinputValue",inputValue)
                 name="nextVisitDate"
                 lable={"Visit Date"}
                 placeholder={VITE_DATE_FORMAT}
-                respclass="col-xl-3 col-md-4 col-sm-4"
+                respclass="col-xl-5 col-md-4 col-sm-4"
                 value={
                   prisciptionForm?.nextVisitDate
                     ? moment(
@@ -2264,7 +2264,7 @@ console.log("inputValueinputValue",inputValue)
                   handlechangebyPrisciption(event);
                 }}
                 lable={t("Days/Month/Years")}
-                respclass="col-xl-2 col-md-4 col-sm-4"
+                respclass="col-xl-3 col-md-4 col-sm-4"
               // disabled={isDisableInputs}
               />
 
@@ -2281,7 +2281,7 @@ console.log("inputValueinputValue",inputValue)
                   { label: "Years", value: "Years" },
                 ]}
                 searchable={true}
-                respclass="col-xl-2 col-md-4 col-sm-4"
+                respclass="col-xl-3 col-md-4 col-sm-4"
               // isDisabled={isDisableInputs}
               />
 
