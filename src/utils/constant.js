@@ -7,6 +7,8 @@ import VitalSign from "../pages/doctor/OPD/VitalSign";
 import i18next from "i18next";
 import { register } from "../serviceWorker";
 
+export const GEMINI_API_KEY = "AIzaSyAa_2uv8ttv2S1n9MGilr2bEzurcOi7aIg";
+export const GEMINI_MODEL = "gemini-2.5-flash-lite";
 
 export const PATIENT_DETAILS = {
   ADMISSIONTYPE: "",

@@ -94,6 +94,8 @@ import SuggestionTextarea from "../../../../formComponent/SuggestionTextarea";
 import ChipAutocomplete from "../../../../commonComponents/ChipAutocomplete";
 import MedicalAssistant from "../../../../../layouts/Chatbot/AiSummary";
 import "./AISummaryPanel.css";
+import { FaBrain } from "react-icons/fa6";
+import { FaRegTimesCircle } from "react-icons/fa";
 
 // import CancelButton from "../UI/CancelButton";
 
@@ -203,7 +205,6 @@ const AppointmentPatientDetail = ({
   const reloadDoctor = useSelector((state) => state.reloadDoctor.loading);
   const selectedFromSuggestion = useRef({});
   const [runReport, setRunReport] = useState(false);
-  const [showAiAssistant, setShowAiAssistant] = useState(false);
   const [prisciptionForm, setPrisciptionForm] = useState({
     Allergies: "",
     NextVisit: "",
@@ -263,6 +264,7 @@ const AppointmentPatientDetail = ({
   });
 
   const [showAISummary, setShowAISummary] = useState(false);
+  const [notepadTextForAI, setNotepadTextForAI] = useState("");
 
   const { getBindVitalData } = useSelector((state) => state.vitalSignSlice);
 
@@ -5217,10 +5219,10 @@ console.log("inputValueinputValue",inputValue)
         />
       </div>
       {/* <ScrollComponent viewPort={"0.6"}> */}
-      <div className="card restcontent">
+      <div className="card restcontent consultation-layout-container">
 
                 {/* AI Sidebar */}
-        {showAISummary && isDesktop && (
+        {showAISummary && (
           <div className="ai-sidebar-container fade-in-slide">
             <div className="py-2">
               <Heading
@@ -5243,7 +5245,7 @@ console.log("inputValueinputValue",inputValue)
 
             <div className="ai-sidebar-body">
               <MedicalAssistant
-                patientDetails={patientDetail.currentPatient}
+                patientDetails={patientDetail?.currentPatient}
                 notepadTextForAI={notepadTextForAI}
               />
             </div>
@@ -5251,7 +5253,7 @@ console.log("inputValueinputValue",inputValue)
         )}
 
         <div
-          className={`consultation-main-content ${showAISummary && isDesktop ? "shrunk" : "full"}`}
+          className={`consultation-main-content ${showAISummary ? "shrunk" : "full"}`}
         >
         <div className="row">
           {/* Right Column: Other boxes */}

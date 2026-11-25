@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-// import DoctorAssisstance from "./DoctorAssisstance";
+import DoctorAssisstance from "./DoctorAssisstance";
 import "./Chatbot.css";
 import {
   FaFilePdf,
@@ -15,8 +15,8 @@ import moment from "moment";
 // import { handleSaveNoteCreation } from "../../networkServices/Emergency";
 import Modal from "../../components/modalComponent/Modal";
 import FullTextEditor from "../../utils/TextEditor";
-// import FullTextSummaryEditor from "../../utils/TextSummaryEditor";
-// import { GEMINI_API_KEY, GEMINI_MODEL } from "../../utils/constant";
+import FullTextSummaryEditor from "../../utils/TextSummaryEditor";
+import { GEMINI_API_KEY, GEMINI_MODEL } from "../../utils/constant";
 const VITE_APP_REACT_APP_BASE_URl = "";
 // const PATIENT_API_URL =
 //   "http://itd.dgn360.com:8109/MobileApp_API/API/LoginAPIDynamic/React_GetPatientOPDPrescriptions?PatientID=20008178&FromDate&ToDate";
