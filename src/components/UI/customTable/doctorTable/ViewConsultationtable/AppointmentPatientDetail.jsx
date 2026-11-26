@@ -3162,7 +3162,9 @@ console.log("inputValueinputValue",inputValue)
           name === "referTo" || name === "department"
             ? selectedOption
             : selectedOption?.value,
-        ...(name === "department" && { referTo: null }),
+        ...((name === "department" || name === "DoctorType") && {
+          referTo: null,
+        }),
       };
 
       // Auto-calculate nextVisitDate when nextVisitType changes

@@ -34,6 +34,10 @@ const TransferReffralConsultation = (props) => {
     setFilteredDoctors(GetBindReferDoctorList || []);
     requestAnimationFrame(() => referDoctorRef.current?.show());
   };
+  const showAllDoctorSuggestions = () => {
+    setFilteredDoctors(GetBindAllDoctorConfirmationData || []);
+    requestAnimationFrame(() => referDoctorRef.current?.show());
+  };
   // const [apiData, setApiData] = useState([]);
   const TEXTAREA_RENDER = [
     {
@@ -154,6 +158,8 @@ const TransferReffralConsultation = (props) => {
         {doctorType === "In-House" && (
           <div className="col-sm-6">
             <AutoComplete
+              ref={referDoctorRef}
+              onFocus={showAllDoctorSuggestions}
               value={prisciptionForm?.referTo}
               id="Refer"
               name="referTo"
