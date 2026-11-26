@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import ReactSelect from "../formComponent/ReactSelect";
 import { useDispatch, useSelector } from "react-redux";
 import {
@@ -24,9 +24,16 @@ const TransferReffralConsultation = (props) => {
     GetBindReferDoctorList,
   } = useSelector((state) => state.CommonSlice);
 
-  const [doctorType, setDoctorType] = useState(prisciptionForm?.DoctorType || "In-House");
+  const [doctorType, setDoctorType] = useState(
+    prisciptionForm?.DoctorType || "In-House",
+  );
   const [filteredDoctors, setFilteredDoctors] = useState([]);
+  const referDoctorRef = useRef(null);
 
+  const showDoctorSuggestions = () => {
+    setFilteredDoctors(GetBindReferDoctorList || []);
+    requestAnimationFrame(() => referDoctorRef.current?.show());
+  };
   // const [apiData, setApiData] = useState([]);
   const TEXTAREA_RENDER = [
     {
@@ -56,7 +63,7 @@ const TransferReffralConsultation = (props) => {
   }, []);
 
   const handleReactSelectChange = async (name, e) => {
-    console.log(e,"tatatatatatat");
+    console.log(e, "tatatatatatat");
 
     setDoctorType(e?.value);
     handleReactSelectChangebyPrisciption(name, e);
@@ -112,8 +119,8 @@ const TransferReffralConsultation = (props) => {
             name={"DoctorType"}
             respclass=""
             dynamicOptions={[
-              { label: "In-House", value:"In-House" },
-              { label: "OutSide", value:"Out-Side" },
+              { label: "In-House", value: "In-House" },
+              { label: "OutSide", value: "Out-Side" },
             ]}
             handleChange={handleReactSelectChange}
             value={doctorType}
@@ -188,11 +195,12 @@ const TransferReffralConsultation = (props) => {
         )} */}
 
         {/* {doctorType === "Out-Side" && (
-          <div className="col-sm-4">
+          <div className="col-sm-6">
             <ReactSelect
               placeholderName={"Refer To"}
               id={"ReferDoctor"}
               searchable={true}
+              className="w-100"
               name={"referTo"}
               respclass=""
               dynamicOptions={
@@ -214,6 +222,7 @@ const TransferReffralConsultation = (props) => {
         {doctorType === "Out-Side" && (
           <div className="col-sm-6">
             <AutoComplete
+              ref={referDoctorRef}
               value={prisciptionForm?.referTo}
               id="ReferDoctor"
               name="referTo"
@@ -223,6 +232,7 @@ const TransferReffralConsultation = (props) => {
               className="w-100"
               placeholder="Refer To"
               onChange={handleAutoCompleteChange}
+              onFocus={showDoctorSuggestions}
             />
           </div>
         )}
