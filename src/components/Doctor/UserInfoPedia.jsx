@@ -87,6 +87,8 @@ const UserInfoPedia = (props) => {
     setIsPrescriptionButton,
     runReport,
     setRunReport,
+    setShowAISummary,
+    showAISummary,
   } = props;
 
   const [handleModelData, setHandleModelData] = useState({});
@@ -447,7 +449,7 @@ const UserInfoPedia = (props) => {
               </div> */}
 
               <div className="row p-1 ">
-                <div className="col-lg-4 col-sm-12 main_container">
+                <div className="col-lg-3 col-sm-12 main_container">
                   <div className="h-100">
                     {/* <ul className="dddUL">
                       <h4>Current Vitals:</h4>
@@ -660,7 +662,7 @@ const UserInfoPedia = (props) => {
                   </div>
                 </div>
 
-                <div className="col-lg-8 col-md-12">
+                <div className="col-lg-9 col-md-12">
                   <div className="button_group">
                     {/* Navigation Buttons */}
                     <span
@@ -795,6 +797,25 @@ const UserInfoPedia = (props) => {
                         <Tooltip target="#CopyForm" />
                       </span>
                     </button>
+
+                    <button
+              type="button"
+              className="btn btn-sm text-white font-weight-bold d-flex align-items-center"
+              onClick={() => setShowAISummary && setShowAISummary((prev) => !prev)}
+              style={{
+                background: "linear-gradient(135deg, #2563eb 0%, #7c3aed 100%)",
+                border: "none",
+                borderRadius: "18px",
+                padding: "4px 12px",
+                fontSize: "12px",
+                boxShadow: "0 2px 8px rgba(37, 99, 235, 0.35)",
+                cursor: "pointer",
+                whiteSpace: "nowrap"
+              }}
+            >
+              <i className=" bi-robot mr-1" style={{ fontSize: "14px" }}></i>
+              AI Assistance
+            </button>
 
                     {/* Call Button */}
                     {!(
