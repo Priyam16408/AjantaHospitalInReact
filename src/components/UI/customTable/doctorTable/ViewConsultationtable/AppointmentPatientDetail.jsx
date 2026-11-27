@@ -92,6 +92,10 @@ import { Next } from "react-bootstrap/esm/PageItem";
 import SingleNameCreateTemplateModal from "./SingleNameCreateTemplateModal";
 import SuggestionTextarea from "../../../../formComponent/SuggestionTextarea";
 import ChipAutocomplete from "../../../../commonComponents/ChipAutocomplete";
+import MedicalAssistant from "../../../../../layouts/Chatbot/AiSummary";
+import "./AISummaryPanel.css";
+import { FaBrain } from "react-icons/fa6";
+import { FaRegTimesCircle } from "react-icons/fa";
 
 // import CancelButton from "../UI/CancelButton";
 
@@ -258,6 +262,9 @@ const AppointmentPatientDetail = ({
     doctorRemarks: "",
     doctorAdditionalAdvice: "",
   });
+
+  const [showAISummary, setShowAISummary] = useState(false);
+  const [notepadTextForAI, setNotepadTextForAI] = useState("");
 
   const { getBindVitalData } = useSelector((state) => state.vitalSignSlice);
 
@@ -5209,10 +5216,48 @@ console.log("inputValueinputValue",inputValue)
           isListening={isListening}
           runReport={runReport}
           setRunReport={setRunReport}
+          setShowAISummary={setShowAISummary}
+          showAISummary={showAISummary}
         />
       </div>
       {/* <ScrollComponent viewPort={"0.6"}> */}
-      <div className="card restcontent">
+      <div className="card restcontent consultation-layout-container">
+
+        {/* AI Sidebar */}
+        {showAISummary && (
+          <div className="ai-sidebar-container fade-in-slide">
+            <div className="py-2">
+              <Heading
+                title={
+                  <span>
+                    <FaBrain /> {t("AI Assistance")}
+                  </span>
+                }
+                isBreadcrumb={false}
+                secondTitle={
+                  <span
+                    className=" p-2"
+                    onClick={() => setShowAISummary(false)}
+                  >
+                    <FaRegTimesCircle />
+                  </span>
+                }
+              />
+            </div>
+
+            <div className="ai-sidebar-body">
+              <MedicalAssistant
+                patientDetails={patientDetail?.currentPatient}
+                notepadTextForAI={notepadTextForAI}
+              />
+            </div>
+          </div>
+        )}
+
+        <div
+          className={`consultation-main-content ${showAISummary ? "shrunk" : "full"}`}
+        >
+
         <div className="row">
           {/* Right Column: Other boxes */}
           {/* assa */}
@@ -7073,6 +7118,7 @@ console.log("inputValueinputValue",inputValue)
             </div>
           )}
           {/* Left Column: Boxes with ID 20, 15, and 10 */}
+          </div>
         </div>
       </div>
 
